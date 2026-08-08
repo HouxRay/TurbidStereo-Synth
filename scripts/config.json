@@ -1,0 +1,37 @@
+{
+    "epoch": 5,
+
+    "camera":{
+        "location":"unreal.Vector(0,0,0)",
+        "rotation":"unreal.Rotator(0,0,0)",
+        "base_line":20
+    },
+
+    "spotlight":{
+        "location":["unreal.Vector(0,100,0)", "unreal.Vector(0,-50,0)"],
+        "rotation":"unreal.Rotator(0,-0,0)",
+        "intensity":0,
+        "inner_cone_angle":0,
+        "outer_cone_angle":45,
+        "set_cast_shadow": 1.5
+    },
+
+    "camera_rig":{
+        "location":"unreal.Vector(0,0,500)",
+        "rotation":"unreal.Rotator(0,0,0)",
+        "spline_path_points":["unreal.Vector(1500,0,0)"]          
+    },
+
+    "cube":{
+        "location":"unreal.Vector(0,0,0)",
+        "rotation":"unreal.Rotator(0,0,0)",
+        "scale":"unreal.Vector(0.1,0.1,0.1)"
+    },
+
+    "playback_start":0,
+    "playback_end":20,
+
+    "sequencer_name":"try",
+    "sequencer_save_path":"/Game/Sequencer/large_map"
+
+}

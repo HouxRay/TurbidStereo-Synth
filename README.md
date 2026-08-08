@@ -2,18 +2,9 @@
 
 A UE5-based synthetic underwater stereo matching dataset with multiple turbidity levels, water colors, and paired geometric/restoration supervision.
 
-> **Associated paper:** *UWStereo-Diff: Physics-Guided Diffusion Stereo Matching for Underwater Degraded Scenes* (Applied Optics).
-
 ## Overview
 
-TurbidStereo-Synth is a synthetic underwater stereo dataset generated with Unreal Engine 5. It provides:
-
-- **~12,000 stereo pairs** across three turbidity levels (heavy / mid / clear) and three ambient-light hues
-- **Paired clear reference images** (scatter-free) for physical restoration supervision
-- **Dense depth maps and disparity labels**
-- **Global ambient-light RGB labels**
-- **Camera intrinsics and calibration files**
-- **Train/test split** (test: 1,080 pairs from independent scenes)
+TurbidStereo-Synth is a synthetic underwater stereo dataset generated with Unreal Engine 5, designed for underwater stereo matching research. It provides stereo image pairs with corresponding depth information under various underwater conditions.
 
 ## Repository Contents
 
@@ -42,23 +33,6 @@ The `scripts/` directory contains UE5 Python (Unreal Editor Python API) scripts 
 
 ![DATASET2](figures/DATASET2.png)
 
-## Citation
-
-If you use TurbidStereo-Synth in your research, please cite:
-
-```
-@article{wu2025uwstereodiff,
-  title={UWStereo-Diff: Physics-Guided Diffusion Stereo Matching for Underwater Degraded Scenes},
-  author={Wu, Chenrui and Hou, Xinrui and Chu, Zhenzhong and Huang, Yao},
-  journal={Applied Optics},
-  year={2025}
-}
-```
-
-## License
-
-This repository is licensed under the MIT License.
-
 ## Contact
 
-For questions or access to the full dataset, please contact the corresponding author.
+For questions or access to the dataset, please contact the corresponding author.
